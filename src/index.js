@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from "./App.jsx";
 
 ReactDOM.render(
-    <div>Cześć</div>,
+    <App />,
     document.getElementById('app')
 );
-
-
-
-console.log("Hello, world!!!");
